@@ -12,8 +12,8 @@ function fibonacci(num) {
 	return c;
 }
 
-var n = prompt("Enter Number");
-var sequence = fibonacci(n);
-alert('nth fibonacci no. = ', sequence);
+var n = Number(prompt("Enter Number"));
+
+alert(fibonacci(n));
 
 module.exports = fibonacci;
