@@ -8,7 +8,7 @@ function fibonacci(num) {
 		a = b;
 		b = c;
 	}
-	return b;
+	return a;
 }
 
 
